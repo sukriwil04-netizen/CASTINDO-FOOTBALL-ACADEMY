@@ -1,0 +1,6 @@
+{
+  "name": "CASTINDO FOOTBALL ACADEMY",
+  "description": "Sistem manajemen database pemain dan pemantauan performa sepak bola usia dini berdasarkan LTAD, training load, dan evaluasi promosi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

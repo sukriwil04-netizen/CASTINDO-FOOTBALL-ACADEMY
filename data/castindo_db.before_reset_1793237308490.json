@@ -1,0 +1,81 @@
+{
+  "players": [
+    {
+      "id": "test-p1",
+      "name": "Test Player",
+      "teamId": "team-a",
+      "ageGroup": "U-12",
+      "registrationNumber": "CFA-TEST"
+    }
+  ],
+  "playerRegistrations": [
+    {
+      "id": "test-r1",
+      "playerName": "Test Player",
+      "registrationNumber": "CFA-TEST",
+      "status": "approved"
+    }
+  ],
+  "teams": [],
+  "trainingSessions": [],
+  "attendanceRecords": [],
+  "trainingLoadRecords": [],
+  "evaluations": [],
+  "motorTests": [],
+  "motorTestResults": [],
+  "ltadGoals": [],
+  "promotionReviews": [],
+  "parentInviteCodes": [],
+  "parentLinkRequests": [],
+  "parentAuditLogs": [],
+  "childIdentityChangeRequests": [],
+  "matches": [],
+  "meta": {
+    "lastUpdated": "2026-10-29T01:28:28.489Z",
+    "version": "1.0.0",
+    "adminSetupCompleted": true
+  },
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Mohammad Wildan Kemal Pasha",
+      "email": "sukriwil04@gmail.com",
+      "role": "admin",
+      "status": "approved",
+      "password": "AdminCastindo2026!",
+      "assignedTeamId": "team-b",
+      "sessionToken": "cfa_admin_token",
+      "createdAt": "2026-08-01T08:00:00.000Z",
+      "approvedAt": "2026-08-01T08:00:00.000Z",
+      "approvedBy": "Master Administrator"
+    },
+    {
+      "id": "usr-coach-1",
+      "name": "Coach Sugeng Raharjo, S.Pd.",
+      "email": "sugeng.coach@castindo.id",
+      "role": "head_coach",
+      "status": "approved",
+      "password": "CoachCastindo2026!",
+      "assignedTeamId": "team-a",
+      "phone": "081234567801",
+      "sessionToken": "cfa_tok_usr-coach-1_headcoach_2026",
+      "createdAt": "2026-08-01T08:00:00.000Z",
+      "approvedAt": "2026-08-01T08:00:00.000Z",
+      "approvedBy": "Master Administrator"
+    },
+    {
+      "id": "usr-coach-2",
+      "name": "Coach Ilham Pratama",
+      "email": "ilham.coach@castindo.id",
+      "role": "assistant_coach",
+      "status": "approved",
+      "password": "CoachCastindo2026!",
+      "assignedTeamId": "team-b",
+      "phone": "081234567802",
+      "sessionToken": "cfa_tok_usr-coach-2_asstcoach_2026",
+      "createdAt": "2026-08-01T08:00:00.000Z",
+      "approvedAt": "2026-08-01T08:00:00.000Z",
+      "approvedBy": "Master Administrator"
+    }
+  ]
+}

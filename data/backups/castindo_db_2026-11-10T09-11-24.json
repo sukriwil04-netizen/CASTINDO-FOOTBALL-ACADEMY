@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Mohammad Wildan Kemal Pasha",
+      "email": "sukriwil04@gmail.com",
+      "role": "admin",
+      "status": "approved",
+      "password": "AdminCastindo2026!",
+      "assignedTeamId": "team-b",
+      "sessionToken": "cfa_tok_usr-1_1794301883933_hvwk4bj",
+      "createdAt": "2026-08-01T08:00:00.000Z",
+      "approvedAt": "2026-08-01T08:00:00.000Z",
+      "approvedBy": "Master Administrator"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-b",
+      "code": "TIM_B",
+      "name": "Castindo Tim B (U-8/U-9)",
+      "ageGroup": "Kelahiran 2016–2017",
+      "format": "7v7",
+      "weeklySessionsCount": 3,
+      "description": "Fokus pembinaan dasar (FUNdamentals & Learn to Play), penguasaan bola, koordinasi motorik, dan situasi 1v1.",
+      "active": true
+    },
+    {
+      "id": "team-a",
+      "code": "TIM_A",
+      "name": "Castindo Tim A (U-9/U-10)",
+      "ageGroup": "Kelahiran 2015–2016",
+      "format": "7v7",
+      "weeklySessionsCount": 3,
+      "description": "Kelompok persiapan kompetisi usia dini dengan tempo latihan dan tuntutan pemahaman ruang lebih intensif.",
+      "active": true
+    },
+    {
+      "id": "team-u11-u12",
+      "code": "TIM_U11_U12",
+      "name": "Castindo Tim U-11/U-12",
+      "ageGroup": "Kelahiran 2014–2015",
+      "format": "9v9",
+      "weeklySessionsCount": 3,
+      "description": "Kelompok pembinaan transisi taktik 9v9, penyelesaian akhir, dan pematangan posisi spesifik.",
+      "active": true
+    }
+  ],
+  "players": [],
+  "playerRegistrations": [],
+  "trainingSessions": [],
+  "attendanceRecords": [],
+  "trainingLoadRecords": [],
+  "evaluations": [],
+  "motorTests": [
+    {
+      "id": "t-sprint10m",
+      "name": "10m Acceleration Sprint",
+      "category": "Sprint Jarak Pendek",
+      "objective": "Mengukur akselerasi awal dan daya ledak eksplosif lari dari posisi diam.",
+      "protocol": "Start berdiri 30cm di belakang cone 0m. Sprint secepat mungkin melewati gerbang 10m. Diambil waktu terbaik dari 2 kesempatan.",
+      "unit": "detik",
+      "equipment": "Marker, Stopwatch / Timing Gate",
+      "higherIsBetter": false
+    },
+    {
+      "id": "t-sprint20m",
+      "name": "20m Maximum Speed Sprint",
+      "category": "Sprint Jarak Pendek",
+      "objective": "Mengukur kecepatan lari maksimal (top speed sprint) pemain sepak bola.",
+      "protocol": "Start berdiri di belakang garis start. Sprint penuh menempuh jarak 20 meter. Diambil waktu terbaik dalam satuan detik.",
+      "unit": "detik",
+      "equipment": "Marker & Stopwatch",
+      "higherIsBetter": false
+    },
+    {
+      "id": "t-illinois",
+      "name": "Illinois Agility Test (Kelincahan)",
+      "category": "Perubahan Arah (Agility)",
+      "objective": "Mengukur kelincahan, kemampuan mengubah arah saat bergerak cepat, dan koordinasi footwork.",
+      "protocol": "Jalur lari 10m x 5m dengan 4 cone di tengah. Lari lurus, slalom memutari cone, dan sprint finish. Waktu diukur dalam detik.",
+      "unit": "detik",
+      "equipment": "8 Marker & Stopwatch",
+      "higherIsBetter": false
+    },
+    {
+      "id": "t-broadjump",
+      "name": "Standing Broad Jump (Daya Ledak Kaki)",
+      "category": "Keseimbangan",
+      "objective": "Mengukur kekuatan eksplosif dan daya ledak horizontal otot tungkai/ekstremitas bawah.",
+      "protocol": "Berdiri di belakang garis tumpu dengan dua kaki rapat. Lompat ke depan sejauh mungkin dan mendarat seimbang tanpa jatuh ke belakang. Jarak diukur dari garis start ke tumit terdekat.",
+      "unit": "cm",
+      "equipment": "Meteran Ukur & Matras/Rumput Datar",
+      "higherIsBetter": true
+    },
+    {
+      "id": "t-yoyo",
+      "name": "Yo-Yo Intermittent Recovery Test (Daya Tahan)",
+      "category": "Koordinasi",
+      "objective": "Mengukur kapasitas daya tahan aerobik dan kemampuan pulih berulang (intermittent endurance) spesifik sepak bola.",
+      "protocol": "Lari bolak-balik 2x20m mengikuti sinyal beep audio dengan interval istirahat aktif 10 detik setelah tiap shuttle. Dicatat total jarak (meter) atau level yang dicapai.",
+      "unit": "meter",
+      "equipment": "Audio Beep Yo-Yo, Speaker, Marker 20m & 5m",
+      "higherIsBetter": true
+    },
+    {
+      "id": "t-sitreach",
+      "name": "Sit and Reach (Kelentukan & Mobilitas)",
+      "category": "Keseimbangan",
+      "objective": "Mengukur fleksibilitas otot paha belakang (hamstring) dan punggung bawah untuk prevensi cedera.",
+      "protocol": "Duduk dengan lutut lurus di lantai, telapak kaki menempel pada kotak ukur. Julurkan tangan ke depan perlahan tanpa menekuk lutut. Catat jangkauan terjauh dalam cm.",
+      "unit": "cm",
+      "equipment": "Kotak Ukur Sit and Reach / Meteran",
+      "higherIsBetter": true
+    },
+    {
+      "id": "t-slalom",
+      "name": "Slalom Dribble Test (Kontrol & Kelincahan Bola)",
+      "category": "Keterampilan Bola",
+      "objective": "Mengukur koordinasi mata-kaki, kelincahan, dan sentuhan bola saat mengubah arah dengan kecepatan.",
+      "protocol": "Mendribble bola melewati 5 cone berjarak 1.5m secara zig-zag bolak-balik (total lintasan 15m). Stopwatch dihentikan saat bola melintasi garis finish.",
+      "unit": "detik",
+      "equipment": "Bola & 5 Marker",
+      "higherIsBetter": false
+    },
+    {
+      "id": "t-juggling",
+      "name": "Juggling Kontrol Kaki (30 Detik)",
+      "category": "Keterampilan Bola",
+      "objective": "Mengukur sentuhan rasa bola (ball feeling) dan koordinasi neuromuskular kaki kanan & kiri.",
+      "protocol": "Menjaga bola tetap di udara menggunakan kaki bergantian selama 30 detik. Catat jumlah sentuhan sukses tertinggi.",
+      "unit": "repetisi",
+      "equipment": "Bola Sepak Ukuran 4",
+      "higherIsBetter": true
+    }
+  ],
+  "motorTestResults": [],
+  "ltadGoals": [],
+  "promotionReviews": [],
+  "matches": [],
+  "parentInviteCodes": [],
+  "parentLinkRequests": [],
+  "parentAuditLogs": [],
+  "childIdentityChangeRequests": [],
+  "meta": {
+    "lastUpdated": "2026-11-10T09:11:24.013Z",
+    "version": "1.0.0",
+    "adminSetupCompleted": true
+  }
+}
